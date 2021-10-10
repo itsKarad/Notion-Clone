@@ -1,0 +1,33 @@
+.Selected{
+    background-color: #EFEFEE;
+    color: #37352F;
+}
+.sheet-item{
+    padding: 2%;
+    height: 100px;
+
+}
+.item-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.item-content-image{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item-content-text{
+    
+    margin-left: 5%;
+}
+
+img{
+    width: 100%;
+    
+}
+p{
+    color: #81807B;
+}

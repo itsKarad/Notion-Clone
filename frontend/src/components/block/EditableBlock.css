@@ -1,0 +1,53 @@
+.Block{
+    padding: 0.5%;
+}
+.H1Block{
+    font-size: 3.5rem;
+    margin-bottom: 4%;
+    margin-top: 4%;
+    font-weight: 800;
+    letter-spacing: -0.1rem;
+
+}
+.H2Block{
+    font-size: 2.6rem;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    font-weight: 700;
+}
+.H3Block{
+    font-size: 1.9rem;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    font-weight: 700;
+}
+.TextBlock{
+    font-size: 1.2rem;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}   
+.BulletBlock{
+    font-size: 1.2rem;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    
+}
+
+[contenteditable]:focus {
+    outline: 4px solid rgba(0, 120, 223, 0.2);
+    box-shadow: 0 0 0 2pt rgb(166, 211, 231);
+    border-radius: 3px;
+}
+body{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-weight: 400;
+}
+
+.example-appear {
+    opacity: 0.01;
+  }
+  
+  .example-appear.example-appear-active {
+    opacity: 1;
+    transition: opacity .5s ease-in;
+  }
